@@ -1,0 +1,16 @@
+
+class Ingredient
+
+  def initialize (name, id)
+    @id = id
+    @name = name
+  end
+
+  def id
+    @id
+  end
+
+  def name
+    @name
+  end
+end
